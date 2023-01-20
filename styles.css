@@ -1,0 +1,188 @@
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #a8a8a8;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 99%;
+    height: 100%;
+    margin-top: -90px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.secao{
+    display: flex;
+    width: 100%;
+    margin: 0 0 10% 0;
+}
+.secao-cabecalho{
+    margin-bottom: 500px;
+}
+.background-principal{
+    width: 100%;
+    height: 100%;
+}
+.background-principal:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+.alura-cabecalho{
+    display: block;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    margin: -6% 20% 0 5%;
+}
+.imagem-combo{
+    width: 60%;
+}
+.botao{
+    font-size: 28px;
+}
+.plano-botao{
+    width: 800px;
+    height: 120px;
+    margin: 6px;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 15px;
+}
+.plano-botao:hover{
+    opacity: 0.7;
+}
+.plano-botao2{
+    width: 800px;
+    height: 120px;
+    margin: 6px;
+    background: #ffffff00;
+    color: var(--branco-principal);
+    border-radius: 15px;
+    border: 3px solid var(--branco-principal);
+}
+.plano-botao2:hover{
+    opacity: 0.7;
+}
+.adicionais{
+    color: var(--cinza-secundario);
+    font-size: 30px;
+}
+.imagem-plataformas{
+    width: 30%;
+    margin: auto auto auto 10%;
+}
+.imagem-plataformas:hover{
+    opacity: 0.9;
+}
+.alura-plataformas{
+    align-items: center;
+    margin: 5% auto auto 10%;
+    width: 50%;
+}
+.titulo-plataforma{
+    font-size: 70px;
+}
+.paragrafo{
+    color: var(--cinza-secundario);
+    margin-top: -20px;
+    font-size: 35px;
+}
+.secao-combo{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.alura-telas{
+    width: 70%;
+    margin: auto 10% auto 15%;
+}
+.alura-telas:hover{
+    opacity: 0.8;
+}
+.alura-combo{
+    width: 100%;
+    margin: 8% -15% auto 8%;
+}
+.botao-combo{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+}
+.botao-combo:hover{
+    opacity: 0.9;
+}
+.alura-download{
+    display: block;
+    margin: auto 10% auto 5%;
+}
+.imagem-notebook{
+    width: 40%;
+    height: 60%;
+     margin: auto auto auto 7%;
+}
+.imagem-notebook:hover{
+    opacity: 0.9;
+}
+.alura-dispositivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-dispositivos{
+    display: flex;
+    justify-content: center;
+    font-size: 77px;
+}
+.img{
+    width: 110%;
+}
+li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ol{
+    width: 600px;
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+.alura-footer{
+    display: block;
+}
+.imagem-final{
+    display: flex;
+    justify-content: center;
+}
+.aluramais{
+    margin-top: 70px;
+    width: 300px;
+}
+.alura-h3{
+    color: var(--cinza-secundario);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: row;
+    gap: 20px;
+}
+.alura-final{
+    color: var(--cinza-secundario);
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
